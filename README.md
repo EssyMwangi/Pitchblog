@@ -46,4 +46,8 @@ To get the code..
   cd pitchblog
   pip install -r requirements.txt
   ```
-
+3. Exporting Configurations
+  ```bash
+  export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@localhost/{database name}
+  ```
+  
