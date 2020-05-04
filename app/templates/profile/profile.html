@@ -42,15 +42,16 @@
         </div>
     </div>
   </div>
-  <div class="col-md-1"></div>
+ 
     <div class="col-md-5" id="user">
         {% if current_user %}
         <h3 class="text-center">You have {{user.pitches.count()}} Pitches</h3>
         {% for i in posts%}
-        <div class="pitches">
-            <h5>Title: {{i.title}}</h5>
-            <h6>{{i.post}}</h6>
-            <p>{{i.comment.count()}} Comments</p>
+        <div class="pitches"  class="card" style="background-color: rgba(64, 119, 136, 0.9);; margin-bottom: 20px; color: white;">
+            <h5 class="card-header">Title: {{i.title}}</h5>
+            <h6 class="card-body">{{i.post}}</h6>
+            <p class="card-footer" style="margin-bottom: 20px;">{{i.comment.count()}} Comments</p>
+            <br>
         </div>
          
         {%endfor%}

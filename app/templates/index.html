@@ -2,18 +2,21 @@
 {% import 'macros.html' as macro %}
 
 {% block content %}
-<div class="card">
+<div class="div">
+  <div class="card" >
     <div class="card text-center">
-        <div class="card-header  mr-2 ml-2">Random Quotes</div>
         <div class="card-body">
-            <h5 class="card-text">{{quote.quote}}</h5>
+            <h5 class="card-text" style="color: rgb(10, 65, 65); font-size: larger;">{{quote.quote}}</h5>
             <p class=""><strong style="font-style:italic;">Author :</strong> <small><span
-  style="text-decoration:underline;font-size:13px;">{{quote.author}}</span> </small></p>
+  style="text-decoration:underline;font-size:13px; ">{{quote.author}}</span> </small></p>
 
 
         </div>
     </div>
 </div>
+
+</div>
+
     
         <div  class="container" id="particles-js">
                 <h2 class="text-center" id="posts"></h2>
