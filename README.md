@@ -63,3 +63,5 @@ Open the application on your browser `127.0.0.1:5000`.
 ## Technology used
 
 * [Python3.7](https://www.python.org/)
+* [Flask](http://flask.pocoo.org/)
+* [Heroku](https://heroku.com)
