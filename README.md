@@ -8,3 +8,7 @@ This  is a flask application that allows users to post one minute pitches and al
 
 ## Live Link
 [View Site]()
+
+## Screenshot
+
+<img src="" width="900px" height="440px">
