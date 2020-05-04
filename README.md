@@ -50,4 +50,7 @@ To get the code..
   ```bash
   export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@localhost/{database name}
   ```
-  
+4. Running the application
+  ```bash
+  python3.7 manage.py server
+  ```
