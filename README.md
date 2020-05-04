@@ -7,11 +7,11 @@
 This  is a flask application that allows users to post one minute pitches and also allows other users who have signed up to comment and upvote or downvote a pitch. It also allows a person to signup to be able to access the functionalities of the application.
 
 ## Live Link
-[View Site]()
+[View Site](https://pitchblogbyess.herokuapp.com/)
 
 ## Screenshot
 
-<img src="" width="900px" height="440px">
+<img src="https://user-images.githubusercontent.com/44394821/80971888-10cd1a80-8e26-11ea-95cd-3d519bccae84.png" width="900px" height="440px">
 
 ## User Story
 Here are some user stories to help you get started:
