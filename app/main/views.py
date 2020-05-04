@@ -11,9 +11,9 @@ import markdown2
 def index():
     quotes = get_quotes()
     pitches = Pitch.query.all()
-    job = Pitch.query.filter_by(category = 'Flask').all() 
-    event = Pitch.query.filter_by(category = 'Django').all()
-    advertisement = Pitch.query.filter_by(category = 'Angular').all()
+    job = Pitch.query.filter_by(category = 'Job').all() 
+    event = Pitch.query.filter_by(category = 'Events').all()
+    advertisement = Pitch.query.filter_by(category = 'Advertisement').all()
     return render_template('index.html', quote=quotes,job = job,event = event, pitches = pitches,advertisement= advertisement)
 
 @main.route('/create_new', methods = ['POST','GET'])
