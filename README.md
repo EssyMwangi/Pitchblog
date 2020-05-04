@@ -11,7 +11,7 @@ This  is a flask application that allows users to post one minute pitches and al
 
 ## Screenshot
 
-<img src="" width="900px" height="440px">
+<img src="https://user-images.githubusercontent.com/44394821/80971888-10cd1a80-8e26-11ea-95cd-3d519bccae84.png" width="900px" height="440px">
 
 ## User Story
 Here are some user stories to help you get started:
