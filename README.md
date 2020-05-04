@@ -36,3 +36,14 @@ Here are some user stories to help you get started:
 
 ## Development Installation
 To get the code..
+
+1. Cloning the repository:
+  ```bash
+  https://github.com/EssyMwangi/Pitchblog
+    ```
+2. Move to the folder and install requirements
+  ```bash
+  cd pitchblog
+  pip install -r requirements.txt
+  ```
+
