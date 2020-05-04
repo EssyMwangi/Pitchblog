@@ -32,3 +32,7 @@ Here are some user stories to help you get started:
 | Select Login | **Username** and **password** | Redirect to page with app pitches based on categories and commenting section|
 | Select comment button | **Comment** | Form that you input your comment|
 | Click on submit |  | Redirect to all comments template with your comment and other comments|
+
+
+## Development Installation
+To get the code..
