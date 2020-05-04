@@ -16,7 +16,7 @@
 									
 									<span class="foot"> <a href="{{url_for('main.dislike',id = category.id)}}"> <button><i class="fa fa-thumbs-down" style="color:red;"></i></button> </a>{{category.downvote.count()}}</span></div>
 			
-								<a href="{{url_for('main.comment',pitch_id = category.id)}}" class="btn btn-info btn-sm"> Comment</a>
+								<a href="{{url_for('main.comment',pitch_id = category.id)}}" class="btn btn-info btn-sm" style="align-items: center;"> Comment</a>
 							</div>
 						</div>
 					</div>

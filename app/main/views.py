@@ -5,6 +5,7 @@ from ..models import User,Pitch,Comment,Upvote,Downvote
 from .form import UpdateProfile,PitchForm,CommentForm
 from .. import db,photos
 from ..request import get_quotes
+import markdown2  
 
 @main.route('/')
 def index():
