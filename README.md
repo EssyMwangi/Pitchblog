@@ -24,3 +24,11 @@ Here are some user stories to help you get started:
 * As a user, I would like to submit a pitch in any category.
 * As a user, I would like to view the different categories.
 
+## BDD
+| Behaviour | Input | Output |
+| :---------------- | :---------------: | ------------------: |
+| Load the page | **On page load** | Get all posts, Select between signup and login|
+| Select SignUp| **Email**,**Username**,**Password** | Redirect to login|
+| Select Login | **Username** and **password** | Redirect to page with app pitches based on categories and commenting section|
+| Select comment button | **Comment** | Form that you input your comment|
+| Click on submit |  | Redirect to all comments template with your comment and other comments|
