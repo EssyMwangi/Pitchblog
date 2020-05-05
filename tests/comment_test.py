@@ -7,29 +7,29 @@ class CommentTest(unittest.TestCase):
     def setUp(self):
 
         self.new_comment = Comment(
-            id=1, comment='Test comment', user=self.user_essy, blog_id=self.new_blog)
+            id=1, comment='Test comment', user=self.user_essy, pitch_id=self.new_pitch)
 
     def tearDown(self):
-        Blog.query.delete()
+        Pitch.query.delete()
         User.query.delete()
 
     def test_check_instance_variables(self):
         self.assertEquals(self.new_comment.comment, 'Test comment')
         self.assertEquals(self.new_comment.user, self.user_essy)
-        self.assertEquals(self.new_comment.blog_id, self.new_blog)
+        self.assertEquals(self.new_comment.pitch_id, self.new_pitch)
 
 
-class CommentModelTest(unittest.TestCase):
+class CommentTest(unittest.TestCase):
     def setUp(self):
         self.user_essy = User(
             username='cha', password='chako', email='test@test.com')
-        self.new_blog = Blog(
-            id=1, title='Test', content='This is a test blog', user_id=self.user_essy.id)
+        self.new_pitch = Pitch(
+            id=1, title='Test', content='This is a test pitch', user_id=self.user_essy.id)
         self.new_comment = Comment(
-            id=1, comment='This is a test comment', user_id=self.user_essy.id, blog_id=self.new_blog.id)
+            id=1, comment='This is a test comment', user_id=self.user_essy.id, pitch_id=self.new_pitch.id)
 
     def tearDown(self):
-        Blog.query.delete()
+        Pitch.query.delete()
         User.query.delete()
         Comment.query.delete()
 
