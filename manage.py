@@ -4,6 +4,7 @@ from app import create_app, db
 from app.models import User
 
 app = create_app('production')
+app = create_app('test')
 
 
 manager = Manager(app)
